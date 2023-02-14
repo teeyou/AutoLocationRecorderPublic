@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_margin="16dp"
+            android:importantForAutofill="no"
+            android:id="@+id/edit_text"
+            android:drawableStart="@drawable/ic_baseline_search_24"
+            android:textSize="16sp"
+            android:inputType="text"
+            android:hint="@string/edit_text_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/image_view_delete"/>
+
+        <ImageView
+            android:id="@+id/image_view_delete"
+            android:layout_marginHorizontal="16dp"
+            android:src="@drawable/ic_baseline_clear_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/delete"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/recycler_view"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintVertical_weight="0.95"
+            app:layout_constraintTop_toBottomOf="@+id/edit_text"
+            app:layout_constraintBottom_toTopOf="@id/space"
+            tools:listitem="@layout/list_item" />
+
+        <View
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintVertical_weight="0.05"
+            app:layout_constraintTop_toBottomOf="@id/recycler_view"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

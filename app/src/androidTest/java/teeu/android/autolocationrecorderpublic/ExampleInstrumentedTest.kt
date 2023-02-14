@@ -1,4 +1,4 @@
-package teeu.android.autolocationrecorder
+package teeu.android.autolocationrecorderpublic
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

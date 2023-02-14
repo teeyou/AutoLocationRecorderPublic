@@ -1,3 +1,64 @@
 <resources>
-    <string name="app_name">AutoLocationRecorder</string>
+    <string name="app_name">Location\nRecorder</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_ad">AD</string>
+    <string name="menu_friends">Friends</string>
+
+    <string name="auto_location_record">Auto Location Recorder</string>
+
+    <string name="settings_notice">Notice</string>
+    <string name="settings_notice_body">
+        Notification permission must be required\n\n
+        Please Network Connection and GPS ON\n\n
+        If you switch on,\n\n
+        Location Record is created every 15 ~ 20 min\n\n
+        But, variation of location must be greater than 100m\n\n
+        Friends menu requires Google sign-in\n\n
+        When your friends request is accepted,\n\n
+        You can watch friends location history\n\n
+        Deleting location history costs 1 coin\n\n
+        Coin is given when you touch the AD menu\n\n
+        Coin not saved if you are not signIn\n\n
+        UNSIGN-IN Records and SIGN-IN Records are managed separately\n\n
+    </string>
+
+    <string name="noti_title">Location Recorder Running</string>
+    <string name="noti_text">Update interval : 15min, greater than 100m.</string>
+
+    <string name="delete_record">Delete?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="no_coin">No coins</string>
+    <string name="delete_coin">Delete Coin</string>
+
+    <string name="sign_in">Sign-in</string>
+    <string name="sign_out">Sign-out</string>
+
+    <string name="edit_text_search">Search : date, time, address</string>
+
+    <string name="edit_text_email_search">ex)teeyou1127</string>
+    <string name="search">Search</string>
+    <string name="add">ADD</string>
+    <string name="see">SEE</string>
+    <string name="accept">ACCEPT</string>
+
+    <string name="msg_add">Request complete</string>
+    <string name="msg_fail">Not Possible</string>
+    <string name="msg_invalid">ID is invalid</string>
+    <string name="msg_accept">Friend accepted</string>
+
+    <string name="friend_request_list">Friends Request</string>
+    <string name="friend_list">Friends</string>
+
+    <string name="waiting">Wait</string>
+
+    <string name="permissions_required">Permissions required</string>
+
+    <string name="default_notification_channel_id">YOUR_CHANNEL_ID</string>
+
+    <string name="prepare_ad">AD in preparation</string>
 </resources>
+

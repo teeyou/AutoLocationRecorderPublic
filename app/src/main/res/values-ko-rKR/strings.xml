@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">자동위치기록</string>
+
+    <string name="menu_home">기록내역</string>
+    <string name="menu_settings">설정</string>
+    <string name="menu_ad">AD</string>
+    <string name="menu_friends">친구목록</string>
+
+    <string name="auto_location_record">자동 위치 기록 스위치</string>
+
+    <string name="settings_notice">공지사항</string>
+    <string name="settings_notice_body">
+        알림 권한 허용이 반드시 필요합니다.\n\n
+        네트워크 연결, GPS가 켜져있어야 합니다.\n\n
+        아래의 스위치를 키면,\n\n
+        위치기록은 15분 ~ 20분 마다 생성됩니다.\n\n
+        단, 위치 변동이 100m 이상일 때만 생성됩니다.\n\n
+        친구 메뉴는 구글 로그인이 필요합니다.\n\n
+        친구신청을 보낸 뒤에 상대방이 수락을 하면,\n\n
+        친구가 된 이용자의 위치 기록을 볼 수 있습니다.\n\n
+        위치 기록 삭제는 코인 1개가 필요합니다.\n\n
+        AD 메뉴를 들어가면 코인 1개가 주어집니다.\n\n
+        로그인을 하지 않으면 코인은 저장되지 않습니다.\n\n
+        비로그인 기록과 로그인 기록은 별도로 관리됩니다.\n\n
+    </string>
+
+    <string name="noti_title">자동위치기록 실행중</string>
+    <string name="noti_text">업데이트 간격 : 15분, 100m이상 변화</string>
+
+    <string name="delete_record">삭제할까요?</string>
+    <string name="ok">네</string>
+    <string name="cancel">아니요</string>
+    <string name="delete">삭제</string>
+    <string name="no_coin">코인이 없어요</string>
+    <string name="delete_coin">삭제 코인</string>
+
+    <string name="sign_in">로그인</string>
+    <string name="sign_out">로그아웃</string>
+
+    <string name="edit_text_search">검색 : 날짜, 시간, 주소</string>
+
+    <string name="edit_text_email_search">ex)teeyou1127</string>
+    <string name="search">찾기</string>
+    <string name="add">추가</string>
+    <string name="see">보기</string>
+    <string name="accept">수락</string>
+
+    <string name="msg_add">친구신청을 보냈어요.</string>
+    <string name="msg_fail">친구신청이 불가능해요.</string>
+    <string name="msg_invalid">유효한 아이디가 아니에요.</string>
+    <string name="msg_accept">친구가 되었어요. </string>
+
+    <string name="friend_request_list">친구요청 받은 목록</string>
+    <string name="friend_list">친구 목록</string>
+
+    <string name="waiting">요청</string>
+
+    <string name="permissions_required">권한이 필요합니다.</string>
+
+    <string name="default_notification_channel_id">YOUR_CHANNEL_ID</string>
+
+    <string name="prepare_ad">광고 준비중</string>
+</resources>

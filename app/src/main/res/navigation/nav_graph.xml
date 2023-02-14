@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="teeu.android.autolocationrecorderpublic.view.home.HomeFragment"
+        android:label="HomeFragment" >
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="teeu.android.autolocationrecorderpublic.view.setting.SettingFragment"
+        android:label="SettingFragment" />
+    <fragment
+        android:id="@+id/adFragment"
+        android:name="teeu.android.autolocationrecorderpublic.view.ad.AdFragment"
+        android:label="AdFragment" />
+    <fragment
+        android:id="@+id/friendFragment"
+        android:name="teeu.android.autolocationrecorderpublic.view.friend.FriendFragment"
+        android:label="FriendFragment">
+        <action
+            android:id="@+id/action_friendFragment_to_friendHistoryFragment"
+            app:destination="@id/friendHistoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/friendHistoryFragment"
+        android:name="teeu.android.autolocationrecorderpublic.view.friend.FriendHistoryFragment"
+        android:label="FriendHistoryFragment" />
+</navigation>
